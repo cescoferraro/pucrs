@@ -142,7 +142,7 @@ Entrega formal do primeiro trabalho da disciplina de automatos na PUCRS.
    1(1+0)*1 + 0(1+0)*0 
    #+END_QUOTE
 
-** Iniciam e terminam pelo mesmo símbolo
+** Iniciam e terminam por símbolos diferentes 
 
    #+BEGIN_QUOTE
    1(1+0)*0 + 0(1+0)*1 
