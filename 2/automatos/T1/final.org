@@ -167,6 +167,7 @@ Entrega formal do primeiro trabalho da disciplina de automatos na PUCRS.
 
    *10+(00)*+1* 
 * TODO Questão 4 
+  Aqui vai uma super resolução.
   #+CAPTION: Esse é um autômato determinístico
   #+NAME:   fig:SED-HR4049
   [[./q4/q4.jpg]]
@@ -185,3 +186,4 @@ Entrega formal do primeiro trabalho da disciplina de automatos na PUCRS.
    #+NAME:   fig:estacionamento
    [[./q6/estacionamento.jpg]]
 * TODO Questão 7 
+  Aqui vai uma super resolução.
