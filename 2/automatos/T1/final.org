@@ -28,17 +28,19 @@ Entrega formal do primeiro trabalho da disciplina de automatos na PUCRS.
    #+NAME:   fig:SED-HR4049
    [[./q1/b/q1b.jpg]]
 
-   | Input       | Result |
-   |-------------+--------|
-   | b	   | Reject |
-   | a	   | Reject |
-   | c	   | Reject |
-   | bb	  | Reject |
-   | aba	 | Reject |
-   | ac	  | Reject |
-   | ab	  | Reject |
-   | bc	  | Reject |
-   | ba	  | Reject |
+   | Input    | Result      |
+   | <8>      | <11>        |
+   |----------+-------------|
+   | b        | Reject      |
+   | a        | Reject      |
+   | c        | Reject      |
+   | bb       | Reject      |
+   | aba      | Reject      |
+   | ac       | Reject      |
+   | ab       | Reject      |
+   | bc       | Reject      |
+   | ba       | Reject      |
+
 ** Não terminam por dois bs consecutivos
    #+CAPTION: Esse é um autômato determinístico
    #+NAME:   fig:SED-HR4049
