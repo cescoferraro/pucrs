@@ -1,6 +1,7 @@
-#+TITLE: T1 Autômatos 
-#+AUTHOR: Francesco Ferraro, Diego Batista, Leonardo Martins
+#+TITLE: Linguagens, Automatos e Computação
+#+SUBTITLE: Trabalho 1 - Linguagens Regulares 
 #+DATE: Setembro/2017
+#+AUTHOR: Francesco Ferraro, Diego Batista, Leonardo Martins
 #+OPTIONS: toc:nil
 
 \begin{abstract}
