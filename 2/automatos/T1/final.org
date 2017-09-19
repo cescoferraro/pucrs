@@ -123,22 +123,31 @@ Entrega formal do primeiro trabalho da disciplina de automatos na PUCRS.
 * Questão 2 - Expressões Regulares
 
 ** Terminam por 101 
+
    #+BEGIN_QUOTE
    (0+1)*(101)
    #+END_QUOTE
+
 ** Iniciam por 1 e terminam com 0 
+
    #+BEGIN_QUOTE
    1(1+0)*0 
    #+END_QUOTE
+
 ** Iniciam e terminam pelo mesmo símbolo
+
    #+BEGIN_QUOTE
    1(1+0)*1 + 0(1+0)*0 
    #+END_QUOTE
+
 ** Iniciam e terminam pelo mesmo símbolo
+
    #+BEGIN_QUOTE
    1(1+0)*0 + 0(1+0)*1 
    #+END_QUOTE
+
 ** TODO Falta Uma 
+
    ER 
 
 * Questão 3 - 10n1
@@ -182,4 +191,16 @@ Entrega formal do primeiro trabalho da disciplina de automatos na PUCRS.
    #+NAME:   fig:estacionamento
    [[./q6/estacionamento.jpg]]
 * TODO Questão 7 - Sinaleira
-  Aqui vai uma super resolução.
+**  Analisando os semáforos paralelamente.
+
+   Resposta é a figura [[fig:paralelo]].
+   #+CAPTION: Autômato em paralelo 
+   #+NAME:   fig:paralelo
+   [[./q7/paralelo.jpg]]
+
+**  Analisando os semáforos simultaneamente.
+
+   Resposta é a figura [[fig:simultaneo]].
+   #+CAPTION: Autômato simultâneo 
+   #+NAME:   fig:simultaneo
+   [[./q7/simultaneo.jpg]]
