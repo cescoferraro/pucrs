@@ -40,6 +40,7 @@ Entrega formal do primeiro trabalho da disciplina de automatos na PUCRS.
    | bc       | Reject      |
    | ba       | Reject      |
 
+  \pagebreak
 ** Não terminam por dois bs consecutivos
    #+CAPTION: Esse é um autômato determinístico
    #+NAME:   fig:SED-HR4049
@@ -56,6 +57,7 @@ Entrega formal do primeiro trabalho da disciplina de automatos na PUCRS.
    | b        | Accept      |
    | aacbac   | Accept      |
    | abcabc   | Reject      |
+  \pagebreak
 ** Iniciam por a e terminam com c 
    #+CAPTION: Esse é um autômato determinístico
    #+NAME:   fig:SED-HR4049
@@ -71,6 +73,7 @@ Entrega formal do primeiro trabalho da disciplina de automatos na PUCRS.
    | abcbc    | Accept      |
    | acac     | Accept      |
    | abcbb    | Reject      |
+  \pagebreak
 ** Iniciam e terminam pelo mesmo símbolo
    #+CAPTION: Esse é um autômato determinístico
    #+NAME:   fig:SED-HR4049
@@ -86,6 +89,7 @@ Entrega formal do primeiro trabalho da disciplina de automatos na PUCRS.
    | ab       | Reject      |
    | bbaa     | Reject      |
    | bba      | Reject      |
+  \pagebreak
 ** Iniciam e terminam por símbolos diferentes
 
    #+CAPTION: Esse é um autômato determinístico
@@ -104,6 +108,7 @@ Entrega formal do primeiro trabalho da disciplina de automatos na PUCRS.
    | bba      | Accept      |
    | abcbcba  | Reject      |
 
+  \pagebreak
 ** Número ímpar de b’s
    #+CAPTION: Esse é um autômato determinístico
    #+NAME:   fig:SED-HR4049
@@ -121,6 +126,27 @@ Entrega formal do primeiro trabalho da disciplina de automatos na PUCRS.
    | bba      | Reject      |
    | abcbcba  | Accept      |
    | b        | Accept      |
+  \pagebreak
+** Não possuam dois símbolos iguais adjacentes 
+   #+CAPTION: Esse é um autômato determinístico
+   #+NAME:   fig:SED-HR4049
+   #+ATTR_HTML: width="200px"
+   #+ATTR_ORG: :width 200
+   [[./q1/h/q1h.jpg]]
+
+   | Input    | Result      |
+   | <8>      | <11>        |
+   |----------+-------------|
+   | a        | Accept      |
+   | b        | Accept      |
+   | aa       | Reject      |
+   | bb       | Reject      |
+   | abba     | Reject      |
+   | baab     | Reject      |
+   | abababa  | Accept      |
+   | baba     | Reject      |
+  \pagebreak
+
 * Questão 2 - Expressões Regulares
 ** Terminam por 101 
 
@@ -150,6 +176,7 @@ Entrega formal do primeiro trabalho da disciplina de automatos na PUCRS.
    #+BEGIN_QUOTE
    ((0+1)* + (100))+ ((0+1)* + (10)) +((0+1)* + (1)*)
    #+END_QUOTE
+\pagebreak
 * Questão 3 - 10n1
 ** Automato
    A figura [[fig:cesco]] reponde essa questão. 
@@ -173,11 +200,13 @@ Entrega formal do primeiro trabalho da disciplina de automatos na PUCRS.
 ** Expressão regular
 
    *10+(00)*+1* 
+\pagebreak
 * TODO Questão 4 - AFND -> AFD
   Aqui vai uma super resolução.
   #+CAPTION: Esse é um autômato determinístico
   #+NAME:   fig:SED-HR4049
   [[./q4/q4.jpg]]
+  \pagebreak
 * Questão 5  - V ou F
 ** Falso 
    Uma vez que consumidas todas as entradas o AFND acaba com a execução ainda que a transição do vazia para o mesmo estado ocorra.  O fato de que o estado anterior a ela ser o mesmo que o posterior não faz o autômato entrar em loop.
@@ -194,7 +223,7 @@ Entrega formal do primeiro trabalho da disciplina de automatos na PUCRS.
   #+NAME:   fig:estacionamento
   [[./q6/estacionamento.jpg]]
   \pagebreak
-* TODO Questão 7 - Sinaleira
+* Questão 7 - Sinaleira
 **  Analisando os semáforos paralelamente.
 
    Resposta é a figura [[fig:paralelo]].
