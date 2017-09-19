@@ -1,4 +1,4 @@
-% Created 2017-09-19 Tue 13:43
+% Created 2017-09-19 Tue 15:01
 % Intended LaTeX compiler: pdflatex
 \documentclass[11pt]{article}
 \usepackage[utf8]{inputenc}
@@ -32,14 +32,14 @@ This article aims to show the specificities of the imperative paradigm. As well 
 \end{abstract}
 
 \section{Questão 1}
-\label{sec:org5d74b37}
+\label{sec:org9864db6}
 
-\subsection{Letra a}
-\label{sec:org77837e9}
+\subsection{Cadeias que terminam por bcb}
+\label{sec:orgc22309c}
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=.9\linewidth]{./q1/a/q1a.jpg}
-\caption{\label{fig:orgb9c3e39}
+\caption{\label{fig:org699c6e8}
 Esse é um autômato determinístico}
 \end{figure}
 
@@ -55,12 +55,12 @@ aaaaa & Reject\\
 \end{tabular}
 \end{center}
 
-\subsection{Letra b}
-\label{sec:org9d5d6e6}
+\subsection{Cadeias que terminam por no máximo dois b´s}
+\label{sec:org2c9b152}
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=.9\linewidth]{./q1/b/q1b.jpg}
-\caption{\label{fig:orgca05c4d}
+\caption{\label{fig:org49ce31f}
 Esse é um autômato determinístico}
 \end{figure}
 
@@ -79,12 +79,12 @@ bc & Reject\\
 ba & Reject\\
 \end{tabular}
 \end{center}
-\subsection{Letra c}
-\label{sec:org973273f}
+\subsection{Cadeias que não terminam por dois bs consecutivos}
+\label{sec:org1a9ddd1}
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=.9\linewidth]{./q1/c/q1c.jpg}
-\caption{\label{fig:orgbab1973}
+\caption{\label{fig:org76b7fc9}
 Esse é um autômato determinístico}
 \end{figure}
 
@@ -98,16 +98,16 @@ cc & Accept\\
 c & Accept\\
 a & Accept\\
 b & Accept\\
-aacbacbcba & Accept\\
-abcabcbb & Reject\\
+aacbac & Accept\\
+abcabc & Reject\\
 \end{tabular}
 \end{center}
-\subsection{Letra d}
-\label{sec:org6837329}
+\subsection{Cadeias que iniciam por a e terminam com c}
+\label{sec:org4432cda}
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=.9\linewidth]{./q1/d/q1d.jpg}
-\caption{\label{fig:org492a17c}
+\caption{\label{fig:org8dd9e3a}
 Esse é um autômato determinístico}
 \end{figure}
 
@@ -124,4 +124,102 @@ acac & Accept\\
 abcbb & Reject\\
 \end{tabular}
 \end{center}
+\subsection{Cadeias que iniciam e terminam pelo mesmo símbolo}
+\label{sec:orga00cbe9}
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=.9\linewidth]{./q1/e/q1e.jpg}
+\caption{\label{fig:orgea5a801}
+Esse é um autômato determinístico}
+\end{figure}
+
+\begin{center}
+\begin{tabular}{ll}
+Input & Result\\
+\hline
+aa & Accept\\
+bb & Accept\\
+cc & Accept\\
+ac & Reject\\
+ab & Reject\\
+bbaa & Reject\\
+bba & Reject\\
+\end{tabular}
+\end{center}
+\subsection{Cadeias que iniciam e terminam por símbolos diferentes}
+\label{sec:org91a1e48}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=.9\linewidth]{./q1/f/q1f.jpg}
+\caption{\label{fig:org541a9d9}
+Esse é um autômato determinístico}
+\end{figure}
+
+\begin{center}
+\begin{tabular}{ll}
+Input & Result\\
+\hline
+aa & Reject\\
+bb & Reject\\
+cc & Reject\\
+ac & Accept\\
+ab & Accept\\
+bbaa & Accept\\
+bba & Accept\\
+abcbcba & Reject\\
+\end{tabular}
+\end{center}
+
+\subsection{Cadeias que tenham um número ímpar de b’s}
+\label{sec:orgdbc3c24}
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=.9\linewidth]{./q1/g/q1g.jpg}
+\caption{\label{fig:orgd3ced22}
+Esse é um autômato determinístico}
+\end{figure}
+
+\begin{center}
+\begin{tabular}{ll}
+Input & Result\\
+\hline
+aa & Reject\\
+bb & Reject\\
+cb & Accept\\
+ac & Reject\\
+ab & Accept\\
+bbaa & Reject\\
+bba & Reject\\
+abcbcba & Accept\\
+b & Accept\\
+\end{tabular}
+\end{center}
+
+\section{Questão 2}
+\label{sec:org7a01ece}
+\section{Questão 3}
+\label{sec:orge7338ff}
+\section{Questão 4}
+\label{sec:org82b568b}
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=.9\linewidth]{./q4/q4.jpg}
+\caption{\label{fig:org7b4e882}
+Esse é um autômato determinístico}
+\end{figure}
+\section{Questão 5}
+\label{sec:org7f86fe9}
+\section{Questão 6}
+\label{sec:org07374bf}
+\subsection{Estacionamento}
+\label{sec:org401c7e7}
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=.9\linewidth]{./q6/estacionamento.jpg}
+\caption{\label{fig:org7088700}
+Esse é um autômato determinístico}
+\end{figure}
+\section{Questão 7}
+\label{sec:orgf1170cb}
 \end{document}

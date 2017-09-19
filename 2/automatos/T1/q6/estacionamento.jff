@@ -3,64 +3,81 @@
 	<automaton>
 		<!--The list of states.-->
 		<state id="0" name="q0">
-			<x>110.0</x>
-			<y>181.0</y>
+			<x>-89.0</x>
+			<y>312.0</y>
 			<initial/>
 		</state>
 		<state id="1" name="q1">
-			<x>423.0</x>
-			<y>112.0</y>
+			<x>326.0</x>
+			<y>220.0</y>
 			<final/>
 		</state>
 		<state id="2" name="q2">
-			<x>434.0</x>
-			<y>257.0</y>
+			<x>482.0</x>
+			<y>328.0</y>
 			<final/>
 		</state>
 		<state id="3" name="q3">
-			<x>499.0</x>
-			<y>332.0</y>
+			<x>627.0</x>
+			<y>417.0</y>
 			<final/>
 		</state>
 		<state id="4" name="q4">
-			<x>528.0</x>
-			<y>419.0</y>
+			<x>798.0</x>
+			<y>492.0</y>
 			<final/>
 		</state>
 		<state id="5" name="q5">
-			<x>632.0</x>
-			<y>495.0</y>
+			<x>1000.0</x>
+			<y>593.0</y>
 			<final/>
 		</state>
 		<state id="6" name="q6">
-			<x>121.0</x>
-			<y>55.0</y>
+			<x>-81.0</x>
+			<y>77.0</y>
 		</state>
 		<state id="7" name="q7">
-			<x>217.0</x>
-			<y>87.0</y>
+			<x>140.0</x>
+			<y>185.0</y>
 		</state>
 		<state id="8" name="q8">
-			<x>313.0</x>
-			<y>12.0</y>
+			<x>306.0</x>
+			<y>65.0</y>
 		</state>
 		<state id="9" name="q9">
-			<x>509.0</x>
-			<y>166.0</y>
+			<x>529.0</x>
+			<y>128.0</y>
 		</state>
 		<state id="10" name="q10">
-			<x>528.0</x>
-			<y>255.0</y>
+			<x>675.0</x>
+			<y>199.0</y>
 		</state>
 		<state id="11" name="q11">
-			<x>576.0</x>
-			<y>356.0</y>
+			<x>832.0</x>
+			<y>288.0</y>
 		</state>
 		<state id="12" name="q12">
-			<x>642.0</x>
-			<y>396.0</y>
+			<x>1003.0</x>
+			<y>400.0</y>
 		</state>
 		<!--The list of transitions.-->
+		<transition>
+			<from>9</from>
+			<to>2</to>
+			<read>25</read>
+		</transition>
+		<transition>
+			<from>3</from>
+			<to>4</to>
+			<read>50</read>
+		</transition>
+		<transition>
+			<from>3</from>
+			<to>5</to>
+			<controlx>649</controlx>
+			<controly>679</controly>
+			<read>100</read>
+		</transition>
 		<transition>
 			<from>1</from>
 			<to>9</to>
@@ -68,23 +85,15 @@
 		</transition>
 		<transition>
 			<from>2</from>
-			<to>10</to>
-			<read>25</read>
-		</transition>
-		<transition>
-			<from>0</from>
-			<to>1</to>
+			<to>4</to>
+			<controlx>529</controlx>
+			<controly>535</controly>
 			<read>100</read>
 		</transition>
 		<transition>
-			<from>1</from>
-			<to>2</to>
-			<read>50</read>
-		</transition>
-		<transition>
 			<from>3</from>
-			<to>4</to>
-			<read>50</read>
+			<to>11</to>
+			<read>25</read>
 		</transition>
 		<transition>
 			<from>4</from>
@@ -102,8 +111,8 @@
 			<read>50</read>
 		</transition>
 		<transition>
-			<from>7</from>
-			<to>8</to>
+			<from>11</from>
+			<to>4</to>
 			<read>25</read>
 		</transition>
 		<transition>
@@ -117,13 +126,25 @@
 			<read>25</read>
 		</transition>
 		<transition>
-			<from>3</from>
-			<to>11</to>
+			<from>2</from>
+			<to>10</to>
 			<read>25</read>
 		</transition>
 		<transition>
-			<from>11</from>
-			<to>4</to>
+			<from>7</from>
+			<to>8</to>
+			<read>25</read>
+		</transition>
+		<transition>
+			<from>1</from>
+			<to>3</to>
+			<controlx>387</controlx>
+			<controly>437</controly>
+			<read>100</read>
+		</transition>
+		<transition>
+			<from>6</from>
+			<to>7</to>
 			<read>25</read>
 		</transition>
 		<transition>
@@ -132,19 +153,14 @@
 			<read>50</read>
 		</transition>
 		<transition>
-			<from>6</from>
-			<to>7</to>
-			<read>25</read>
-		</transition>
-		<transition>
-			<from>8</from>
-			<to>1</to>
-			<read>25</read>
-		</transition>
-		<transition>
 			<from>12</from>
 			<to>5</to>
 			<read>25</read>
+		</transition>
+		<transition>
+			<from>1</from>
+			<to>2</to>
+			<read>50</read>
 		</transition>
 		<transition>
 			<from>0</from>
@@ -152,14 +168,21 @@
 			<read>50</read>
 		</transition>
 		<transition>
-			<from>9</from>
-			<to>2</to>
+			<from>8</from>
+			<to>1</to>
 			<read>25</read>
 		</transition>
 		<transition>
 			<from>0</from>
 			<to>6</to>
 			<read>25</read>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>1</to>
+			<controlx>251</controlx>
+			<controly>303</controly>
+			<read>100</read>
 		</transition>
 	</automaton>
 </structure>
