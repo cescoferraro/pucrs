@@ -121,6 +121,13 @@ Entrega formal do primeiro trabalho da disciplina de automatos na PUCRS.
    | b        | Accept      |
 
 * Questão 2 
+
+** Expressão regular que terminam por 101 
+** Expressão regular que terminam por no máximo dois 1´s
+** Expressão regular que não terminam por dois 1s consecutivos
+** Expressão regular que iniciam por 1 e terminam com 0 
+** Expressão regular que iniciam e terminam pelo mesmo símbolo
+
 * Questão 3 
 ** Automato
    A figura [[fig:cesco]] reponde essa questão. 
@@ -151,6 +158,12 @@ Entrega formal do primeiro trabalho da disciplina de automatos na PUCRS.
   #+NAME:   fig:SED-HR4049
   [[./q4/q4.jpg]]
 * Questão 5 
+
+  - ? 
+  - Verdadeira
+  - ? 
+  - False - Por definição um AFD e AFND tem igual poder de reconhecimento 
+
 * Questão 6 
 ** Estacionamento
    Resposta é a figura [[fig:estacionamento]].
