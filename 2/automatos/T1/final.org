@@ -8,7 +8,6 @@ Entrega formal do primeiro trabalho da disciplina de automatos na PUCRS.
 \end{abstract}
 
 * Questão 1 - Cadeias 
-
 ** Terminam por bcb
    #+CAPTION: Esse é um autômato determinístico
    #+NAME:   fig:SED-HR4049
@@ -123,7 +122,6 @@ Entrega formal do primeiro trabalho da disciplina de automatos na PUCRS.
    | abcbcba  | Accept      |
    | b        | Accept      |
 * Questão 2 - Expressões Regulares
-
 ** Terminam por 101 
 
    #+BEGIN_QUOTE
@@ -181,9 +179,11 @@ Entrega formal do primeiro trabalho da disciplina de automatos na PUCRS.
   #+NAME:   fig:SED-HR4049
   [[./q4/q4.jpg]]
 * Questão 5  - V ou F
-** TODO ? 
+** Falso 
+Uma vez que consumidas todas as entradas o AFND acaba com a execução ainda que a transição do vazia para o mesmo estado ocorra.  O fato de que o estado anterior a ela ser o mesmo que o posterior não faz o autômato entrar em loop.
 ** Verdadeira
-** TODO ? 
+** Falso 
+Um ADF sem ao menos 1 estado final reconhece só a linguagem vazia.
 ** Falsa  
    Por definição um AFD e AFND tem igual poder de reconhecimento
 
