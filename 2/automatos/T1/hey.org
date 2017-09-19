@@ -1,0 +1,67 @@
+#+TITLE: T1 Autômatos 
+#+OPTIONS: toc:nil
+
+\begin{abstract}
+This article aims to show the specificities of the imperative paradigm. As well as making a history background of the reason why the paradigm is wwidely used at classic programming languages, making them behave like they do.
+\end{abstract}
+
+* Questão 1 
+
+** Letra a 
+   #+CAPTION: Esse é um autômato determinístico
+   #+NAME:   fig:SED-HR4049
+   [[./q1/a/q1a.jpg]]
+
+   | Input        | Result |
+   |--------------+--------|
+   | abcb	 | Accept |
+   | bcbb	 | Reject |
+   | cbcb	 | Accept |
+   | bcbaaa       | Reject |
+   | aaaaa	 | Reject |
+
+** Letra b 
+   #+CAPTION: Esse é um autômato determinístico
+   #+NAME:   fig:SED-HR4049
+   [[./q1/b/q1b.jpg]]
+
+   | Input       | Result |
+   |-------------+--------|
+   | b	   | Reject |
+   | a	   | Reject |
+   | c	   | Reject |
+   | bb	  | Reject |
+   | aba	 | Reject |
+   | ac	  | Reject |
+   | ab	  | Reject |
+   | bc	  | Reject |
+   | ba	  | Reject |
+** Letra c 
+   #+CAPTION: Esse é um autômato determinístico
+   #+NAME:   fig:SED-HR4049
+   [[./q1/c/q1c.jpg]]
+
+   | Input       | Result |
+   |-------------+--------|
+   |aa	        |Accept|
+   |bb	        |Reject|
+   |cc	        |Accept|
+   |c	        |Accept|
+   |a	        |Accept|
+   |b	        |Accept|
+   |aacbacbcba	|Accept|
+   |abcabcbb	|Reject|
+** Letra d 
+   #+CAPTION: Esse é um autômato determinístico
+   #+NAME:   fig:SED-HR4049
+   [[./q1/d/q1d.jpg]]
+
+   | Input       | Result |
+   |-------------+--------|
+   |a	|Reject|
+   |b	|Reject|
+   |c	|Reject|
+   |ac	|Accept|
+   |abcbc	|Accept|
+   |acac	|Accept|
+   |abcbb	|Reject|
