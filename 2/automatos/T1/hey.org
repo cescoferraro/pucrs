@@ -65,3 +65,10 @@ This article aims to show the specificities of the imperative paradigm. As well 
    |abcbc	|Accept|
    |acac	|Accept|
    |abcbb	|Reject|
+** Letra e 
+   #+CAPTION: Esse é um autômato determinístico
+   #+NAME:   fig:SED-HR4049
+   [[./q1/e/q1e.jpg]]
+
+   | Input       | Result |
+   |-------------+--------|
