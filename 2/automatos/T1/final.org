@@ -1,8 +1,9 @@
 #+TITLE: T1 Autômatos 
 #+OPTIONS: toc:nil
+#+AUTHOR: Francesco Ferraro, Diego Batista, Leonardo Martins
 
 \begin{abstract}
-This article aims to show the specificities of the imperative paradigm. As well as making a history background of the reason why the paradigm is wwidely used at classic programming languages, making them behave like they do.
+Entrega formal do primeiro trabalho da disciplina de automatos na PUCRS.
 \end{abstract}
 
 * Questão 1 
@@ -121,6 +122,30 @@ This article aims to show the specificities of the imperative paradigm. As well 
 
 * Questão 2 
 * Questão 3 
+** Automato
+   A figura [[fig:cesco]] reponde essa questão. 
+   
+   #+CAPTION: Esse é um autômato determinístico
+   #+NAME:   fig:cesco
+   [[./q3/q3.jpg]]
+
+   A tabela abaixo confirma o automato na figura [[fig:cesco]]. 
+
+   |    Input | Result      |
+   |      <8> | <11>        |
+   |----------+-------------|
+   |        0 | Reject      |
+   |       01 | Reject      |
+   |        1 | Reject      |
+   |      101 | Accept      |
+   |     1001 | Reject      |
+   |    10001 | Accept      |
+   |   100001 | Reject      |
+   |  1000001 | Accept      |
+   | 10000001 | Reject      |
+** Expressão regular
+
+   *10+(00)*+1* 
 * Questão 4 
   #+CAPTION: Esse é um autômato determinístico
   #+NAME:   fig:SED-HR4049
@@ -128,7 +153,8 @@ This article aims to show the specificities of the imperative paradigm. As well 
 * Questão 5 
 * Questão 6 
 ** Estacionamento
-  #+CAPTION: Esse é um autômato determinístico
-  #+NAME:   fig:SED-HR4049
-  [[./q6/estacionamento.jpg]]
+   Resposta é a figura [[fig:estacionamento]].
+   #+CAPTION: Autômato de uma parquímetro
+   #+NAME:   fig:estacionamento
+   [[./q6/estacionamento.jpg]]
 * Questão 7 
