@@ -120,8 +120,6 @@ Entrega formal do primeiro trabalho da disciplina de automatos na PUCRS.
    | bba      | Reject      |
    | abcbcba  | Accept      |
    | b        | Accept      |
-
-
 * Questão 2 - Expressões Regulares
 
 ** Terminam por 101 
@@ -143,7 +141,7 @@ Entrega formal do primeiro trabalho da disciplina de automatos na PUCRS.
 ** TODO Falta Uma 
    ER 
 
-* Questão 3 
+* Questão 3 - 10n1
 ** Automato
    A figura [[fig:cesco]] reponde essa questão. 
    
@@ -166,24 +164,22 @@ Entrega formal do primeiro trabalho da disciplina de automatos na PUCRS.
 ** Expressão regular
 
    *10+(00)*+1* 
-* TODO Questão 4 
+* TODO Questão 4 - AFND -> AFD
   Aqui vai uma super resolução.
   #+CAPTION: Esse é um autômato determinístico
   #+NAME:   fig:SED-HR4049
   [[./q4/q4.jpg]]
-* Questão 5 
-
+* Questão 5  - V ou F
 ** TODO ? 
 ** Verdadeira
 ** TODO ? 
 ** Falsa  
    Por definição um AFD e AFND tem igual poder de reconhecimento
 
-* Questão 6 
-** Estacionamento
+* Questão 6 - Estacionamento
    Resposta é a figura [[fig:estacionamento]].
    #+CAPTION: Autômato de uma parquímetro
    #+NAME:   fig:estacionamento
    [[./q6/estacionamento.jpg]]
-* TODO Questão 7 
+* TODO Questão 7 - Sinaleira
   Aqui vai uma super resolução.
