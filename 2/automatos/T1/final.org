@@ -92,7 +92,7 @@ Entrega formal do primeiro trabalho da disciplina de automatos na PUCRS.
   \pagebreak
 ** Iniciam e terminam por símbolos diferentes
 
-   #+CAPTION: Esse é um autômato determinístico
+   #+CAPTION: Esse é um autômato não determinístico
    #+NAME:   fig:SED-HR4049
    [[./q1/f/q1f.jpg]]
 
