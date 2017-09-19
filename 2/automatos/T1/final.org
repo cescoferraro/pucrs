@@ -1,7 +1,7 @@
 #+TITLE: Linguagens, Automatos e Computação
 #+SUBTITLE: Trabalho 1 - Linguagens Regulares 
 #+DATE: Setembro/2017
-#+AUTHOR: Francesco Ferraro, Diego Batista, Leonardo Martins
+#+AUTHOR: Francesco Ferraro, Diego Batista, Leonardo Marques 
 #+OPTIONS: toc:nil
 
 \begin{abstract}
@@ -202,11 +202,32 @@ Entrega formal do primeiro trabalho da disciplina de automatos na PUCRS.
 
    *10+(00)*+1* 
 \pagebreak
-* TODO Questão 4 - AFND -> AFD
+* Questão 4 - AFND -> AFD
+** AFND
   Aqui vai uma super resolução.
-  #+CAPTION: Esse é um autômato determinístico
+  #+CAPTION: Esse é um autômato não determinístico da questão 4
   #+NAME:   fig:SED-HR4049
   [[./q4/q4.jpg]]
+  
+** AFD
+  #+CAPTION: Esse é um autômato determinístico gerado a partir do AFD
+  #+NAME:   fig:SED-HR4049
+  [[./q4/afd.jpg]]
+
+| Estados     | 0           | 1           |
+| <11>        | <11>        | <11>        |
+|-------------+-------------+-------------|
+| { p }       | { q, s }    | { q }       |
+| { q }       | { r }       | { q, r }    |
+| { r }       | { s }       | { p }       |
+| { s }       | ø           | { p }       |
+| { q, s}     | { r }       | { p, q, r } |
+| { q, r}     | { s, r }    | { p, r, q } |
+| { p, q}     | { q, s, r } | { q, r, p } |
+| { q, s, r}  | { s, r }    | { q, r, p } |
+| { s, r }    | { s }       | { p }       |
+
+
   \pagebreak
 * Questão 5  - V ou F
 ** Falso 

@@ -1,4 +1,4 @@
-% Created 2017-09-19 Tue 18:00
+% Created 2017-09-19 Tue 20:30
 % Intended LaTeX compiler: pdflatex
 \documentclass[11pt]{article}
 \usepackage[utf8]{inputenc}
@@ -14,12 +14,12 @@
 \usepackage{amssymb}
 \usepackage{capt-of}
 \usepackage{hyperref}
-\author{Francesco Ferraro, Diego Batista, Leonardo Martins}
+\author{Francesco Ferraro, Diego Batista, Leonardo Marques}
 \date{Setembro/2017}
 \title{Linguagens, Automatos e Computação\\\medskip
 \large Trabalho 1 - Linguagens Regulares}
 \hypersetup{
- pdfauthor={Francesco Ferraro, Diego Batista, Leonardo Martins},
+ pdfauthor={Francesco Ferraro, Diego Batista, Leonardo Marques},
  pdftitle={Linguagens, Automatos e Computação},
  pdfkeywords={},
  pdfsubject={},
@@ -33,13 +33,13 @@ Entrega formal do primeiro trabalho da disciplina de automatos na PUCRS.
 \end{abstract}
 
 \section{Questão 1 - Cadeias}
-\label{sec:org6854e37}
+\label{sec:orgf266f04}
 \subsection{Terminam por bcb}
-\label{sec:orgce1b984}
+\label{sec:orge85a861}
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=.9\linewidth]{./q1/a/q1a.jpg}
-\caption{\label{fig:org666ee09}
+\caption{\label{fig:orgad2e5ec}
 Esse é um autômato determinístico}
 \end{figure}
 
@@ -56,11 +56,11 @@ aaaaa & Reject\\
 \end{center}
 
 \subsection{Terminam por no máximo dois b´s}
-\label{sec:orge75716f}
+\label{sec:org2ac98ea}
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=.9\linewidth]{./q1/b/q1b.jpg}
-\caption{\label{fig:orga8a9744}
+\caption{\label{fig:orgc29ce22}
 Esse é um autômato determinístico}
 \end{figure}
 
@@ -82,11 +82,11 @@ ba & Reject\\
 
 \pagebreak
 \subsection{Não terminam por dois bs consecutivos}
-\label{sec:org99ff2b8}
+\label{sec:org9543220}
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=.9\linewidth]{./q1/c/q1c.jpg}
-\caption{\label{fig:orgb375888}
+\caption{\label{fig:org08cb597}
 Esse é um autômato determinístico}
 \end{figure}
 
@@ -106,11 +106,11 @@ abcabc & Reject\\
 \end{center}
 \pagebreak
 \subsection{Iniciam por a e terminam com c}
-\label{sec:orgc6bebc2}
+\label{sec:org5e495c6}
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=.9\linewidth]{./q1/d/q1d.jpg}
-\caption{\label{fig:org710fe77}
+\caption{\label{fig:org77f4442}
 Esse é um autômato determinístico}
 \end{figure}
 
@@ -129,11 +129,11 @@ abcbb & Reject\\
 \end{center}
 \pagebreak
 \subsection{Iniciam e terminam pelo mesmo símbolo}
-\label{sec:org9356ea2}
+\label{sec:orgeafa2e3}
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=.9\linewidth]{./q1/e/q1e.jpg}
-\caption{\label{fig:org6c94205}
+\caption{\label{fig:org5146e5c}
 Esse é um autômato determinístico}
 \end{figure}
 
@@ -152,12 +152,12 @@ bba & Reject\\
 \end{center}
 \pagebreak
 \subsection{Iniciam e terminam por símbolos diferentes}
-\label{sec:org1f27122}
+\label{sec:org504c22a}
 
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=.9\linewidth]{./q1/f/q1f.jpg}
-\caption{\label{fig:org67f1480}
+\caption{\label{fig:org5a5969d}
 Esse é um autômato não determinístico}
 \end{figure}
 
@@ -178,11 +178,11 @@ abcbcba & Reject\\
 
 \pagebreak
 \subsection{Número ímpar de b’s}
-\label{sec:org334c150}
+\label{sec:org6b9afd1}
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=.9\linewidth]{./q1/g/q1g.jpg}
-\caption{\label{fig:org841d2b6}
+\caption{\label{fig:org82db3df}
 Esse é um autômato determinístico}
 \end{figure}
 
@@ -203,11 +203,11 @@ b & Accept\\
 \end{center}
 \pagebreak
 \subsection{Não possuam dois símbolos iguais adjacentes}
-\label{sec:orgac60c58}
+\label{sec:org840f8e5}
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=.9\linewidth]{./q1/h/q1h.jpg}
-\caption{\label{fig:org419664d}
+\caption{\label{fig:orgd0aff02}
 Esse é um autômato determinístico}
 \end{figure}
 
@@ -228,51 +228,51 @@ baba & Reject\\
 \pagebreak
 
 \section{Questão 2 - Expressões Regulares}
-\label{sec:org47235f9}
+\label{sec:orgd4c0488}
 \subsection{Terminam por 101}
-\label{sec:orgf7dddd2}
+\label{sec:orge644f56}
 
 \begin{quote}
 (0+1)*(101)
 \end{quote}
 
 \subsection{Iniciam por 1 e terminam com 0}
-\label{sec:org72abd86}
+\label{sec:orgdc92331}
 
 \begin{quote}
 1(1+0)*0 
 \end{quote}
 
 \subsection{Iniciam e terminam pelo mesmo símbolo}
-\label{sec:orgd8b3031}
+\label{sec:orgce49dc8}
 
 \begin{quote}
 1(1+0)*1 + 0(1+0)*0 
 \end{quote}
 
 \subsection{Iniciam e terminam por símbolos diferentes}
-\label{sec:org952d3ca}
+\label{sec:org515121c}
 
 \begin{quote}
 1(1+0)*0 + 0(1+0)*1 
 \end{quote}
 
 \subsection{Terminam por no máximo dois 0´s}
-\label{sec:orgd66519e}
+\label{sec:org3783ed3}
 \begin{quote}
 ((0+1)* + (100))+ ((0+1)* + (10)) +((0+1)* + (1)*)
 \end{quote}
 \pagebreak
 \section{Questão 3 - 10n1}
-\label{sec:orgea1570a}
+\label{sec:orgc03906d}
 \subsection{Automato}
-\label{sec:org4a57c10}
-A figura \ref{fig:org779decc} reponde essa questão. 
+\label{sec:org3555b5c}
+A figura \ref{fig:org9e82aa8} reponde essa questão. 
 
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=.9\linewidth]{./q3/q3.jpg}
-\caption{\label{fig:org779decc}
+\caption{\label{fig:org9e82aa8}
 Esse é um autômato determinístico}
 \end{figure}
 
@@ -292,66 +292,95 @@ Input & Result\\
 \end{tabular}
 \end{center}
 \subsection{Expressão regular}
-\label{sec:org13b3bdc}
+\label{sec:orgcbaf11e}
 
 \textbf{10+(00)*+1} 
 \pagebreak
-\section{{\bfseries\sffamily TODO} Questão 4 - AFND -> AFD}
-\label{sec:orgb81e8e2}
+\section{Questão 4 - AFND -> AFD}
+\label{sec:org9c2c208}
+\subsection{AFND}
+\label{sec:orga81d0b9}
 Aqui vai uma super resolução.
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=.9\linewidth]{./q4/q4.jpg}
-\caption{\label{fig:org909fda7}
-Esse é um autômato determinístico}
+\caption{\label{fig:org5d0b4fb}
+Esse é um autômato não determinístico da questão 4}
 \end{figure}
+
+\subsection{AFD}
+\label{sec:org8ca60cb}
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=.9\linewidth]{./q4/afd.jpg}
+\caption{\label{fig:orgcf82d52}
+Esse é um autômato determinístico gerado a partir do AFD}
+\end{figure}
+
+\begin{center}
+\begin{tabular}{lll}
+Estados & 0 & 1\\
+\hline
+\{ p \} & \{ q, s \} & \{ q \}\\
+\{ q \} & \{ r \} & \{ q, r \}\\
+\{ r \} & \{ s \} & \{ p \}\\
+\{ s \} & ø & \{ p \}\\
+\{ q, s\} & \{ r \} & \{ p, q, r \}\\
+\{ q, r\} & \{ s, r \} & \{ p, r, q \}\\
+\{ p, q\} & \{ q, s, r \} & \{ q, r, p \}\\
+\{ q, s, r\} & \{ s, r \} & \{ q, r, p \}\\
+\{ s, r \} & \{ s \} & \{ p \}\\
+\end{tabular}
+\end{center}
+
+
 \pagebreak
 \section{Questão 5  - V ou F}
-\label{sec:orgd4e3a61}
+\label{sec:org6b9a8d2}
 \subsection{Falso}
-\label{sec:org2726acf}
+\label{sec:orga4c2fd6}
 Uma vez que consumidas todas as entradas o AFND acaba com a execução ainda que a transição do vazia para o mesmo estado ocorra.  O fato de que o estado anterior a ela ser o mesmo que o posterior não faz o autômato entrar em loop.
 \subsection{Verdadeira}
-\label{sec:org9ce3c42}
+\label{sec:org9a250ef}
 \subsection{Falso}
-\label{sec:org1745221}
+\label{sec:org7a740f2}
 Um ADF sem ao menos 1 estado final reconhece só a linguagem vazia.
 \subsection{Falsa}
-\label{sec:orgebd3a12}
+\label{sec:org0464e23}
 Por definição um AFD e AFND tem igual poder de reconhecimento
 
 \pagebreak
 \section{Questão 6 - Estacionamento}
-\label{sec:orge5f19b3}
-Resposta é a figura \ref{fig:org5fd4825}.
+\label{sec:orge6e3296}
+Resposta é a figura \ref{fig:org5aba085}.
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=.9\linewidth]{./q6/estacionamento.jpg}
-\caption{\label{fig:org5fd4825}
+\caption{\label{fig:org5aba085}
 Autômato de uma parquímetro}
 \end{figure}
 \pagebreak
 \section{Questão 7 - Sinaleira}
-\label{sec:org0e51221}
+\label{sec:orgdab43f0}
 \subsection{Analisando os semáforos paralelamente.}
-\label{sec:org423dfdb}
+\label{sec:orgc9d3b14}
 
-Resposta é a figura \ref{fig:orgac52818}.
+Resposta é a figura \ref{fig:org43b0e2f}.
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=.9\linewidth]{./q7/paralelo.jpg}
-\caption{\label{fig:orgac52818}
+\caption{\label{fig:org43b0e2f}
 Autômato em paralelo}
 \end{figure}
 
 \subsection{Analisando os semáforos simultaneamente.}
-\label{sec:org95ad0ae}
+\label{sec:org01d9a16}
 
-Resposta é a figura \ref{fig:org75ec515}.
+Resposta é a figura \ref{fig:org0e3757e}.
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=.9\linewidth]{./q7/simultaneo.jpg}
-\caption{\label{fig:org75ec515}
+\caption{\label{fig:org0e3757e}
 Autômato simultâneo}
 \end{figure}
 \end{document}
