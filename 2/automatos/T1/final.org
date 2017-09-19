@@ -146,10 +146,10 @@ Entrega formal do primeiro trabalho da disciplina de automatos na PUCRS.
    1(1+0)*0 + 0(1+0)*1 
    #+END_QUOTE
 
-** TODO Falta Uma 
-
-   ER 
-
+** Terminam por no máximo dois 0´s
+   #+BEGIN_QUOTE
+   ((0+1)* + (100))+ ((0+1)* + (10)) +((0+1)* + (1)*)
+   #+END_QUOTE
 * Questão 3 - 10n1
 ** Automato
    A figura [[fig:cesco]] reponde essa questão. 
@@ -180,20 +180,20 @@ Entrega formal do primeiro trabalho da disciplina de automatos na PUCRS.
   [[./q4/q4.jpg]]
 * Questão 5  - V ou F
 ** Falso 
-Uma vez que consumidas todas as entradas o AFND acaba com a execução ainda que a transição do vazia para o mesmo estado ocorra.  O fato de que o estado anterior a ela ser o mesmo que o posterior não faz o autômato entrar em loop.
+   Uma vez que consumidas todas as entradas o AFND acaba com a execução ainda que a transição do vazia para o mesmo estado ocorra.  O fato de que o estado anterior a ela ser o mesmo que o posterior não faz o autômato entrar em loop.
 ** Verdadeira
 ** Falso 
-Um ADF sem ao menos 1 estado final reconhece só a linguagem vazia.
+   Um ADF sem ao menos 1 estado final reconhece só a linguagem vazia.
 ** Falsa  
    Por definição um AFD e AFND tem igual poder de reconhecimento
 
-\pagebreak
+   \pagebreak
 * Questão 6 - Estacionamento
-   Resposta é a figura [[fig:estacionamento]].
-   #+CAPTION: Autômato de uma parquímetro
-   #+NAME:   fig:estacionamento
-   [[./q6/estacionamento.jpg]]
-\pagebreak
+  Resposta é a figura [[fig:estacionamento]].
+  #+CAPTION: Autômato de uma parquímetro
+  #+NAME:   fig:estacionamento
+  [[./q6/estacionamento.jpg]]
+  \pagebreak
 * TODO Questão 7 - Sinaleira
 **  Analisando os semáforos paralelamente.
 
