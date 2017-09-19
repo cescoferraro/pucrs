@@ -187,11 +187,13 @@ Um ADF sem ao menos 1 estado final reconhece só a linguagem vazia.
 ** Falsa  
    Por definição um AFD e AFND tem igual poder de reconhecimento
 
+\pagebreak
 * Questão 6 - Estacionamento
    Resposta é a figura [[fig:estacionamento]].
    #+CAPTION: Autômato de uma parquímetro
    #+NAME:   fig:estacionamento
    [[./q6/estacionamento.jpg]]
+\pagebreak
 * TODO Questão 7 - Sinaleira
 **  Analisando os semáforos paralelamente.
 
